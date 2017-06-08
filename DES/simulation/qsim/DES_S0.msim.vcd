@@ -1,0 +1,250 @@
+$comment
+	File created using the following command:
+		vcd file DES_S0.msim.vcd -direction
+$end
+$date
+	Sat May 21 17:16:21 2016
+$end
+$version
+	ModelSim Version 10.4b
+$end
+$timescale
+	1ps
+$end
+
+$scope module DES_S0_vlg_vec_tst $end
+$var reg 6 ! INPUT [0:5] $end
+$var wire 1 " OUTPUT [0] $end
+$var wire 1 # OUTPUT [1] $end
+$var wire 1 $ OUTPUT [2] $end
+$var wire 1 % OUTPUT [3] $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , OUTPUT[3]~output_o $end
+$var wire 1 - OUTPUT[2]~output_o $end
+$var wire 1 . OUTPUT[1]~output_o $end
+$var wire 1 / OUTPUT[0]~output_o $end
+$var wire 1 0 INPUT[0]~input_o $end
+$var wire 1 1 INPUT[5]~input_o $end
+$var wire 1 2 INPUT[4]~input_o $end
+$var wire 1 3 INPUT[3]~input_o $end
+$var wire 1 4 OUTPUT~2_combout $end
+$var wire 1 5 OUTPUT~1_combout $end
+$var wire 1 6 INPUT[1]~input_o $end
+$var wire 1 7 INPUT[2]~input_o $end
+$var wire 1 8 OUTPUT~3_combout $end
+$var wire 1 9 OUTPUT~0_combout $end
+$var wire 1 : OUTPUT~4_combout $end
+$var wire 1 ; OUTPUT~5_combout $end
+$var wire 1 < OUTPUT~7_combout $end
+$var wire 1 = OUTPUT~8_combout $end
+$var wire 1 > OUTPUT~9_combout $end
+$var wire 1 ? OUTPUT~10_combout $end
+$var wire 1 @ OUTPUT~6_combout $end
+$var wire 1 A OUTPUT~11_combout $end
+$var wire 1 B OUTPUT~16_combout $end
+$var wire 1 C OUTPUT~13_combout $end
+$var wire 1 D OUTPUT~14_combout $end
+$var wire 1 E OUTPUT~15_combout $end
+$var wire 1 F OUTPUT~12_combout $end
+$var wire 1 G OUTPUT~17_combout $end
+$var wire 1 H OUTPUT~18_combout $end
+$var wire 1 I OUTPUT~19_combout $end
+$var wire 1 J OUTPUT~20_combout $end
+$var wire 1 K OUTPUT~21_combout $end
+$var wire 1 L OUTPUT~22_combout $end
+$var wire 1 M OUTPUT~23_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10010 !
+0%
+1$
+0#
+1"
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+1-
+0.
+1/
+00
+01
+12
+03
+04
+15
+16
+07
+08
+19
+0:
+0;
+0<
+1=
+1>
+0?
+0@
+1A
+1B
+0C
+0D
+0E
+1F
+0G
+1H
+0I
+0J
+1K
+1L
+1M
+$end
+#100000
+b10110 !
+b110110 !
+13
+10
+0F
+1D
+1C
+1:
+05
+1I
+1E
+18
+0K
+1G
+1;
+0M
+0/
+1,
+1.
+1#
+1%
+0"
+#200000
+b110111 !
+b110101 !
+b10101 !
+11
+02
+00
+0I
+1F
+0D
+1@
+1?
+0=
+1<
+0:
+15
+14
+1K
+0>
+08
+1M
+0A
+0;
+0,
+0-
+1/
+1"
+0$
+0%
+#300000
+b101 !
+b1 !
+b11 !
+12
+03
+06
+1I
+0H
+0F
+0B
+0@
+0?
+0<
+09
+1>
+18
+1A
+1;
+1,
+1-
+1$
+1%
+#400000
+b10 !
+b100010 !
+b110010 !
+b110110 !
+b110100 !
+01
+02
+13
+16
+10
+0I
+0C
+1<
+05
+04
+0K
+08
+1K
+0E
+0>
+18
+0M
+0;
+0,
+0/
+0"
+0%
+1M
+0G
+0A
+1;
+1,
+0-
+0.
+1/
+1"
+0#
+0$
+1%
+#500000
+b10100 !
+b100 !
+b0 !
+03
+06
+00
+0<
+0L
+1E
+1>
+08
+1G
+1A
+0;
+0,
+1-
+1.
+1#
+1$
+0%
+#1000000

@@ -1,0 +1,30 @@
+# do DES_S0.do
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:16:16 on May 21,2016
+# vlog -work work DES_S0.vo 
+# -- Compiling module DES_S0
+# 
+# Top level modules:
+# 	DES_S0
+# End time: 17:16:17 on May 21,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:16:17 on May 21,2016
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module DES_S0_vlg_vec_tst
+# 
+# Top level modules:
+# 	DES_S0_vlg_vec_tst
+# End time: 17:16:17 on May 21,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.DES_S0_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 17:16:19 on May 21,2016
+# Loading work.DES_S0_vlg_vec_tst
+# Loading work.DES_S0
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# ** Note: $finish    : Waveform.vwf.vt(45)
+#    Time: 1 us  Iteration: 0  Instance: /DES_S0_vlg_vec_tst
+# End time: 17:16:21 on May 21,2016, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

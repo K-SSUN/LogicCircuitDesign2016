@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Decoder/simulation/qsim
+vdecoder3_8
+Z1 !s110 1463547929
+!i10b 1
+!s100 gcX4M61o=[gZ1L^RngIWo0
+IF8nBZh?N:zdNSCT5NAARQ0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1463547922
+8decoder3_8.vo
+Fdecoder3_8.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1463547929.000000
+!s107 decoder3_8.vo|
+!s90 -work|work|decoder3_8.vo|
+!i113 1
+Z5 o-work work
+vdecoder3_8_vlg_vec_tst
+R1
+!i10b 1
+!s100 H0oCSnUUI7SX]K;cNJ03I2
+IGn43@;BN:M4>oa<mF`3ad1
+R2
+R0
+w1463547912
+8decoder_wave.vwf.vt
+Fdecoder_wave.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 decoder_wave.vwf.vt|
+!s90 -work|work|decoder_wave.vwf.vt|
+!i113 1
+R5
